@@ -1,0 +1,7 @@
+<objinfo>
+
+	<username locator="id" value="txtUsername" />
+	<password locator="id" value="txtPassword" />
+	<login locator="xpath" value="//*[@id='btnLogin']																													" />
+
+</objinfo>

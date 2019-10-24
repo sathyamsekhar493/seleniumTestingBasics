@@ -1,0 +1,7 @@
+[main] DEBUG Log4j.Book  - Log4j appender configuration is successful !!
+[main] INFO  Log4j.Book  - Launch application
+[main] INFO  Log4j.Book  - Application Launched Successful
+[main] DEBUG Log4j.Book  - Log4j appender configuration is successful !!
+[main] INFO  Log4j.Book  - Launch application
+[main] INFO  Log4j.Book  - Application Launched Successful
+[main] INFO  Log4j.Book  - driver closed

@@ -1,0 +1,13 @@
+<ObjectInfo>
+
+<Edition locator="id" value="payment_plan_id" />
+<Firstname locator="xpath" value="//input[@placeholder='First Name']" />
+<LastName locator="xpath" value="//input[@placeholder='Last Name']"/>
+<Email locator="xpath" value="//input[@placeholder='Email']"/>
+<conformemail locator="xpath" value="//input[@placeholder='Confirm Email']"/>
+<username locator="xpath" value="//input[@placeholder='Username']"/>
+<password locator="xpath" value ="//input[@placeholder='Password']"/>
+<confirmpassword locator="xpath" value="//input[@placeholder='Confirm Password']"/>
+<terms locator="xpath" value="//input[@type='checkbox']"/>
+<Submit locator="id" value="submitButton"/>
+</ObjectInfo>

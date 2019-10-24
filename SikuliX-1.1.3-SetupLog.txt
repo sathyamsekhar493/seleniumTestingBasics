@@ -1,0 +1,54 @@
+[debug (10/16/19, 2:11:11 PM)] Debug: setLogFile: C:\Users\admin\Downloads\SikuliX-1.1.3-SetupLog.txt
+[debug (10/16/19, 2:11:11 PM)] RunSetup: ... starting with no args given
+[debug (10/16/19, 2:11:11 PM)] RunSetup: Setup: 1.1.3 2018-07-11_08:19 in folder:
+C:\Users\admin\Downloads
+[debug (10/16/19, 2:11:11 PM)] RunSetup: RunningSystem: Windows 10.0
+[debug (10/16/19, 2:11:11 PM)] RunSetup: parent of jar/classes: C:\Users\admin\Downloads
+[debug (10/16/19, 2:11:11 PM)] RunSetup: RunningJava: Java 11 (amd64) 11.0.4+10-LTS
+[debug (10/16/19, 2:11:11 PM)] init user preferences
+[debug (10/16/19, 2:11:15 PM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+C:\Users\admin\Downloads
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 2 ---
+sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar (Java API)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (10/16/19, 2:11:19 PM)] RunSetup: 
+popAsk: --------------------
+You have for Windows native libs
+C:\Users\admin\AppData\Roaming\Sikulix\SikulixDownloads\sikulixlibswin-1.1.1.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (10/16/19, 2:11:20 PM)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (10/16/19, 2:11:20 PM)] FileManager: resetFolder:
+C:\Users\admin\Downloads\SetupStuff\sikulixlibs\windows
+jar:file:/C:/Users/admin/Downloads/sikulixlibswin.jar
+[debug (10/16/19, 2:11:20 PM)] RunSetup: 
+popAsk: --------------------
+You have for Java API package
+C:\Users\admin\AppData\Roaming\Sikulix\SikulixDownloads_201807110819\sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar
+Click YES, if you want to use this for setup processing
+... or click NO, to ignore it and download a fresh copy
+--------------------
+[debug (10/16/19, 2:11:23 PM)] RunSetup: Copied from Downloads: sikulixapi
+[debug (10/16/19, 2:11:23 PM)] RunSetup: Download ended
+[debug (10/16/19, 2:11:23 PM)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.1.jar sikulixsetupAPI-1.1.3-20180711.082046-40-forsetup.jar 
+[debug (10/16/19, 2:11:23 PM)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (10/16/19, 2:11:23 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (10/16/19, 2:11:23 PM)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (10/16/19, 2:11:28 PM)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (10/16/19, 2:11:31 PM)] FileManager: buildJar: adding sikulixcontent at sikulixlibswin
+[debug (10/16/19, 2:11:32 PM)] FileManager: buildJar: completed
+[debug (10/16/19, 2:11:32 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (10/16/19, 2:11:33 PM)] RunSetup: Trying to run functional test: JAVA-API *** on Java8+ *** 
+[error (10/16/19, 2:11:38 PM)] RunTimeSETUP: *** Java 8+: setup API test - with ProcessRunner
+[debug (10/16/19, 2:11:52 PM)] RunSetup: setup API test: success
+[debug (10/16/19, 2:11:57 PM)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)
+[debug (10/16/19, 2:11:57 PM)] RunTimeSETUP: final cleanup
+[debug (10/16/19, 2:11:57 PM)] FileManager: deleteFileOrFolder:
+C:\Users\admin\AppData\Local\Temp\Sikulix_1345866742
